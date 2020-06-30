@@ -14,6 +14,7 @@ df.info()
 df.head()
 df.describe()
 
+#hier gibts ne veränderung
 
 # In[15]:
 
@@ -35,7 +36,3 @@ plt.show()
 
 
 # In[ ]:
-
-
-
-
