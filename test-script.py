@@ -16,7 +16,7 @@ df.describe()
 
 #hier gibts ne veränderung
 
-# In[15]:
+#hier die zweite änderung 
 
 
 df = df[['Entity','Year', 'Population', 'GDP in $','Primary Energy Consumption (terrawatt-hours)']]
