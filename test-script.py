@@ -14,15 +14,9 @@ df.info()
 df.head()
 df.describe()
 
-#hier gibts ne veränderung
-
-#hier die zweite änderung 
-
 
 df = df[['Entity','Year', 'Population', 'GDP in $','Primary Energy Consumption (terrawatt-hours)']]
 
-
-# In[16]:
 
 
 df = df.rename(index= str, columns={'Entity':'Country', 'Year':'Year', 'Population':'Population','GDP in $':'GDP','Primary Energy Consumption (terrawatt-hours)':'PEV' })
@@ -32,7 +26,5 @@ print(df.loc[2010])
 print(df.xs((slice(None), 'Germany')))
 df.plot(x='Population', y='PEV', kind='scatter')
 df.plot(x='GDP', y='PEV', kind='scatter')
+#plt.show()
 plt.show()
-
-
-# In[ ]:
